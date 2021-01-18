@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRecursion", "SimpleRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fionacci\Fibonacci.csproj", "{F4336D51-A94B-43DC-B8B7-CF3F49542C7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faculty", "Faculty\Faculty.csproj", "{A67DFBCB-63A0-4DFA-A2EE-761308C7507E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F4336D51-A94B-43DC-B8B7-CF3F49542C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4336D51-A94B-43DC-B8B7-CF3F49542C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4336D51-A94B-43DC-B8B7-CF3F49542C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67DFBCB-63A0-4DFA-A2EE-761308C7507E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67DFBCB-63A0-4DFA-A2EE-761308C7507E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67DFBCB-63A0-4DFA-A2EE-761308C7507E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67DFBCB-63A0-4DFA-A2EE-761308C7507E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
