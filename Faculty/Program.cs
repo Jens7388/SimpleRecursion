@@ -6,14 +6,14 @@ namespace Faculty
     {
         static void Main()
         {
-            for(int n = 1; n < 15; n++)
+            for(int n = 1; n <= 21; n++)
             {
                 Console.WriteLine(Faculty(n));
             }
             Console.ReadLine();
         }
 
-        private static int Faculty(int n)
+        private static long Faculty(long n)
         {
             if(n == 1)
             {

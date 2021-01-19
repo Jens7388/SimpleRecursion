@@ -6,8 +6,7 @@ namespace Fionacci
     class Program
     {
         static void Main()
-        {
-            
+        {        
             FibonacciSequence();
         }
 
@@ -19,7 +18,7 @@ namespace Fionacci
                 timer.Start();
                 int result = Fibonacci(n);
                 timer.Stop();
-                Console.WriteLine($"{n}, {result} Elapsed time: {timer.Elapsed}");
+                Console.WriteLine($"{n}: {result} Elapsed time: {timer.Elapsed}");
                 timer.Reset();            
             }
             Console.ReadLine();
